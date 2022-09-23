@@ -1,6 +1,13 @@
 <template>
   <div>
-  <SliderHome/>
+  <client-only>
+    <CarouselSlider/>
+  </client-only>
+  <Administration/>
+  <TheSchoolLife/>
+  <News/>
+  <Blog/>
+  <Teacher/>
   </div>
 </template>
 

@@ -1,4 +1,35 @@
 body
 {
-  background: #ced4da40;
+  background: #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+.button{
+  font-size: 16px;
+  background-color: #FE6500 !important;
+  font-weight: 600 !important;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 20px;
+}
+.button:hover{
+  text-decoration: none;
+  color: #fff;
+}
+.button .icon{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.divider{
+  width: 50px;
+    height: 2px;
+    display: block;
+    margin-top: 10px;
+  background: #FE6500;
+}
+
+.fixed-top {
+  top: -120px !important;
+  transform: translateY(120px) !important;
+  transition: transform .4s !important;
 }

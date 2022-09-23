@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main_navBar">
     <div class="navbar_top">
       <div class="container">
         <div class="top_nav_content">
@@ -187,6 +187,12 @@ export default {};
   flex-direction: column;
   /* gap: 2px; */
 }
+}
+@media screen and (max-width: 428px) {
+  .top_nav_content a {
+    font-size: 12px !important;
+  }
+
 }
 
 </style>

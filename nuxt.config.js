@@ -13,14 +13,11 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      {
-        rel: 'stylesheet',
-        href: '/css/bootstrap.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: '/css/fontAwesome.min.css'
-      },
+      {rel: 'stylesheet', href: '/css/bootstrap.min.css'},
+      {rel: 'stylesheet', href: '/css/fontAwesome.min.css'},
+      {rel:"preconnect", href:"https://fonts.googleapis.com"},
+      {rel:"preconnect", href:"https://fonts.gstatic.com"},
+      {href:"https://fonts.googleapis.com/css2?family=Handlee&family=Lato&family=Open+Sans&display=swap", rel:"stylesheet"}
     ],
     script: [
       {src: '/js/bootstrap.min.js'},
@@ -31,7 +28,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~asset/css/style.css'
+    '~asset/css/style.css',
+    'animate.css/animate.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
