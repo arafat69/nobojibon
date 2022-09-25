@@ -26,7 +26,7 @@
           <a href="#">Blog Title Gose Here</a>
         </div>
       </div>
-      
+
       <div class="col-md-6 col-lg-4 mt-4">
         <div class="news">
           <div class="news_thumbnail">
@@ -94,5 +94,13 @@ export default {};
 .image{
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 28px;
+  }
+  .news_thumbnail{
+    height: auto;
+  }
 }
 </style>

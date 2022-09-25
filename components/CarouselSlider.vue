@@ -124,7 +124,7 @@ export default {
 .our-service-section {
   background-color: rgba(0, 0, 0, 0) !important;
   background-repeat: repeat-x !important;
-  background-image: url(http://nji.amadereshkul.com/templates/nursery/media/slider/slider_slide3_background.png) !important;
+  background-image: url('/images/slider_background.png') !important;
   background-position: center top !important;
   width: 100%;
   max-height: 500px;

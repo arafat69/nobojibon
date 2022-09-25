@@ -118,5 +118,8 @@ export default {};
   .photo{
     display: none;
   }
+  .title{
+    font-size: 28px;
+  }
 }
 </style>

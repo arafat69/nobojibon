@@ -130,4 +130,12 @@ export default {};
   width: 100%;
   height: 100%;
 }
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 28px;
+  }
+  .news_thumbnail{
+    height: auto;
+  }
+}
 </style>

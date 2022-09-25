@@ -76,19 +76,19 @@
                 PEOPLE
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Administration</a></li>
+                  <li><nuxt-link class="dropdown-item" to="/administration">Administration</nuxt-link></li>
                   <li><a class="dropdown-item" href="#">Teachers</a></li>
                   <li><a class="dropdown-item" href="#">Staffs</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ALBUM</a>
+                <nuxt-link class="nav-link" to="/album">ALBUM</nuxt-link>
               </li>
               <li class="nav-item">
                 <nuxt-link class="nav-link" to="/blog">BLOG</nuxt-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ADMISSION</a>
+                <nuxt-link class="nav-link" to="/admission">ADMISSION</nuxt-link>
               </li>
             </ul>
           </div>
@@ -137,6 +137,7 @@ export default {};
 }
 .navbar_top {
   background-color: #56509f;
+  display: block;
 }
 .top_nav_content {
   height: 40px;

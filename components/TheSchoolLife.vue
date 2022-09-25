@@ -79,4 +79,9 @@ export default {};
   color: #56509f;
   font-size: 38px;
 }
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 28px;
+  }
+}
 </style>

@@ -70,7 +70,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="col-md-4 col-lg-3 mt-4">
         <div class="teacher">
           <div class="teacher_thumbnail">
@@ -209,5 +209,11 @@ export default {};
 .image{
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width: 600px) {
+  .title{
+    font-size: 28px;
+  }
+  
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="footer_Section mt-3">
+  <div class="footer_Section mt-5">
     <div class="container">
       <div class="row">
 
@@ -61,7 +61,7 @@
 export default {
   data() {
     return {
-      
+
     }
   },
   methods:{
