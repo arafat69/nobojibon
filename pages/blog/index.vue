@@ -1,6 +1,9 @@
 <template>
+  <div>
+    <div class="page_header">
+      <span>Blogs List</span>
+    </div>
   <div class="container py-4">
-    <h3 class="title">Blog</h3>
     <div class="row">
 
       <div class="col-md-6 col-lg-4 mt-4">
@@ -42,10 +45,7 @@
 
     </div>
 
-    <div class="mt-5 text-center">
-      <nuxt-link to="/blog" class="button">Go TO Blog <i class="fa icon fa-angle-right"></i></nuxt-link>
-    </div>
-
+  </div>
   </div>
 </template>
 
@@ -74,7 +74,6 @@ export default {};
     transform: translate(-50%, -50%);
     background-color: #56509F80;
     color: #fff;
-    font-size: 22px;
     display: none !important;
     transition: 1s ease-in-out !important;
     cursor: pointer;

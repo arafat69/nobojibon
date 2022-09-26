@@ -1,6 +1,9 @@
 <template>
-  <div class="container py-4">
-    <h3 class="title">Teachers</h3>
+  <div>
+    <div class="page_header">
+      <span>Teachers List</span>
+    </div>
+    <div class="container py-4">
     <div class="row">
 
       <div class="col-md-4 col-lg-3 mt-4">
@@ -139,21 +142,19 @@
         </div>
       </div>
 
-
     </div>
-
-    <div class="mt-5 text-center">
-      <nuxt-link to="/teacher" class="button">Go TO Teacher <i class="fa icon fa-angle-right"></i></nuxt-link>
     </div>
-
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+
+}
 </script>
 
 <style scoped>
+
   .teacher{
     transition: 0.3s ease-in-out;
   }
@@ -167,7 +168,7 @@ export default {};
     overflow: hidden;
   }
   .teacher:hover .plus{
-    display: flex;
+    display: flex !important;
   }
   .plus{
     position: absolute;
@@ -180,11 +181,12 @@ export default {};
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #56509F80;
-    color: #fff !important;
+    color: #fff;
     font-size: 26px !important;
-    display: none;
+    display: none !important;
     transition: 1s ease-in-out !important;
     cursor: pointer;
+    text-decoration: none;
   }
 .details p {
   margin: 0;

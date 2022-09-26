@@ -77,8 +77,27 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><nuxt-link class="dropdown-item" to="/administration">Administration</nuxt-link></li>
-                  <li><a class="dropdown-item" href="#">Teachers</a></li>
+                  <li><nuxt-link class="dropdown-item" to="/teacher">Teachers</nuxt-link></li>
                   <li><a class="dropdown-item" href="#">Staffs</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                NEWS &amp; EVENTS
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><nuxt-link class="dropdown-item" to="/news">News</nuxt-link></li>
+                  <li><a class="dropdown-item" href="#">All Events</a></li>
+                  <li><a class="dropdown-item" href="#">Ongoing Events</a></li>
+                  <li><a class="dropdown-item" href="#">Upcoming Events</a></li>
+                  <li><a class="dropdown-item" href="#">Featured Events</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -116,10 +135,10 @@ export default {};
   color: #fff !important;
 }
 .navbar-light .navbar-nav .nav-link {
-  padding: 31px 15px !important;
+  padding: 31px 12px !important;
   color: #56509F;
 }
-.navbar-light .navbar-nav .nav-link:focus{
+.navbar-light .navbar-nav .nav-link:focus,.navbar-light .navbar-nav .nav-link:hover{
   color: #56509F;
 }
 .navbar-nav .dropdown-menu{
@@ -173,7 +192,7 @@ export default {};
   padding: 5px;
 }
 .navbar-light .navbar-nav .nav-link {
-  padding: 10px 15px !important;
+  padding: 10px 12px !important;
   text-align: center;
 }
 .main_navbar .logo {

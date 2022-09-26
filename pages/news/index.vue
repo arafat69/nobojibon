@@ -1,15 +1,18 @@
 <template>
+  <div>
+  <div class="page_header">
+      <span>News List</span>
+    </div>
   <div class="container py-4">
-    <h3 class="title">News</h3>
     <div class="row">
 
       <div class="col-md-6 col-lg-4 mt-4">
         <div class="news">
           <div class="news_thumbnail">
             <img src="/images/news.jpeg" class="image">
-              <nuxt-link to="/news/1" class="plus">
+            <nuxt-link to="/news/1" class="plus">
                 <i class="fa fa-plus"></i>
-              </nuxt-link>
+            </nuxt-link>
           </div>
           <nuxt-link to="/news/1">নবজীবন ইনস্টিটিউট প্রভাত ফেরি</nuxt-link>
         </div>
@@ -21,7 +24,7 @@
             <img src="/images/news2.jpeg" class="image">
             <nuxt-link to="/news/1" class="plus">
                 <i class="fa fa-plus"></i>
-              </nuxt-link>
+            </nuxt-link>
           </div>
           <nuxt-link to="/news/1">Annual Sport 2020</nuxt-link>
         </div>
@@ -77,11 +80,8 @@
 
     </div>
 
-    <div class="mt-5 text-center">
-      <nuxt-link to="/news" class="button">Go TO News <i class="fa icon fa-angle-right"></i></nuxt-link>
-    </div>
-
   </div>
+</div>
 </template>
 
 <script>
@@ -108,12 +108,12 @@ export default {};
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #56509F80;
+    color: #fff !important;
+    font-size: 26px !important;
     display: none !important;
     transition: 1s ease-in-out !important;
     cursor: pointer;
     text-decoration: none;
-    color: #fff !important;
-    font-size: 26px !important;
   }
 .news a {
   font-size: 18px;

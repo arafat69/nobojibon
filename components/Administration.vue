@@ -16,7 +16,7 @@
           <div class="photo" style="width: 50%;">
             <img src="/images/admistration.jpeg" width="100%" />
           </div>
-          <a href="#" class="moreBtn">More <i class="fa icon fa-angle-right"></i></a>
+          <nuxt-link to="/administration/1" class="moreBtn">More <i class="fa icon fa-angle-right"></i></nuxt-link>
         </div>
       </div>
 
@@ -31,7 +31,7 @@
           <div class="photo" style="width: 50%;">
             <img src="/images/admistration2.jpeg" width="100%" />
           </div>
-          <a href="#" class="moreBtn">More <i class="fa icon fa-angle-right"></i></a>
+          <nuxt-link to="/administration/1" class="moreBtn">More <i class="fa icon fa-angle-right"></i></nuxt-link>
         </div>
       </div>
 
@@ -46,7 +46,7 @@
           <div class="photo" style="width: 50%;">
             <img src="/images/admistration3.jpeg" width="100%" />
           </div>
-          <a href="#" class="moreBtn">More <i class="fa icon fa-angle-right"></i></a>
+          <nuxt-link to="/administration/1" class="moreBtn">More <i class="fa icon fa-angle-right"></i></nuxt-link>
         </div>
       </div>
 

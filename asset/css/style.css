@@ -33,3 +33,15 @@ body
   transform: translateY(120px) !important;
   transition: transform .4s !important;
 }
+
+.page_header {
+  color: #fff;
+  text-align: center;
+  padding: 46px 0 50px 0px;
+  background-color: #56509f;
+  font-size: 34px;
+}
+
+.text-color{
+  color: #56509f;
+}

@@ -1,18 +1,94 @@
 <template>
-  <div class="card card-body">
-    <h1>Admission</h1>
+  <div>
+    <h4 class="text-color">Online Admission 2021</h4>
+    <p><span class="text-muted">Admission Open :</span> <span class="text-danger">01/12/2020 ~ 31/03/2021</span></p>
 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis,
-    necessitatibus rem. Molestiae minus unde sit voluptatem similique totam
-    minima voluptate harum praesentium, porro pariatur laudantium magnam? Error
-    velit in consequuntur perferendis tenetur repellat eveniet autem atque hic
-    animi, similique magnam doloribus accusantium non magni! Fugiat pariatur est
-    illo maxime ut. Necessitatibus temporibus amet eveniet eum deleniti commodi
-    dolorem qui rem quas veniam nisi perferendis officiis, cupiditate quam sunt
-    sint, magnam similique nostrum error! Ipsum veniam nostrum recusandae velit,
-    esse magnam reiciendis at beatae, suscipit placeat delectus et aspernatur
-    cumque eaque unde. Libero corporis, aliquam veritatis, repellendus magni
-    quos labore,
+    <div>
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+          <th>Class</th>
+          <th>Age Restriction(Years)</th>
+          <th>Form Price(Taka)</th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Angel</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Pioneer</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>One</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Two</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Three</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Four</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Five</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Six</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Seven</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Eight</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Nine</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+        <tr>
+          <td>Ten</td>
+          <td></td>
+          <td>100/=</td>
+          <td>Apply</td>
+        </tr>
+      </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
